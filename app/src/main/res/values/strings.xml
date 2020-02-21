@@ -1,0 +1,118 @@
+<resources>
+    <string name="app_name">CTP-PAM</string>
+    <string name="title_activity_settings">Configuracion</string>
+    <string name="title_activity_agregar">Nuevo Contacto</string>
+    <string name="title_activity_eliminar">Eliminar Contacto</string>
+    <string name="title_activity_change_password">Cambiar contraseña</string>
+    <string name="title_activity_contact_details">Detalles</string>
+    <string name="title_activity_editar">Seleccion Editar </string>
+    <string name="title_activity_editarContacto">Editar</string>
+    <string name="preference_file_key">itesm.mx.listacontactos</string>
+    <string name="aceptar">Aceptar</string>
+    <string name="confirmar_contrasena">Confirmar Contraseña</string>
+    <string name="contrasena">Contraseña</string>
+    <string name="nombre_contacto">Nombre</string>
+    <string name="numero_contacto">Número</string>
+    <string name="agregar_contacto_titulo">Agregar Contacto</string>
+    <string name="categoria">Categoria</string>
+    <string name="agregar_contacto">Agregar</string>
+    <string-array name="array_categorias">
+        <item>Familiares</item>
+        <item>Amigos</item>
+        <item>Servicios de Salud</item>
+        <item>Otros</item>
+    </string-array>
+    <string name="eliminar_contacto">Eliminar</string>
+    <string name="eliminar_contacto_titulo">Eliminar contacto</string>
+    <string name="editar_contacto_titulo">Editar contacto</string>
+    <string name="editar_contacto_texto">Elige a un contacto para editar: </string>
+    <string name="editar_contacto">Confirmar</string>
+    <string name="ajustes">Configuracion</string>
+    <string name="cancelar">Cancelar</string>
+
+    <string name="borrar_contacto_boton">Borrar contacto</string>
+    <string name="agregar_contacto_boton">Agregar contacto</string>
+    <string name="editar_contacto_boton">Editar contacto</string>
+    <string name="cambiar_password_boton">Cambiar contraseña</string>
+    <string name="confirmar_nueva_contrasena">Confirmar contraseña</string>
+    <string name="nueva_contrasena">Nueva contraseña</string>
+    <string name="default_password">usuario</string>
+    <string name="parentezco">Parentezco: </string>
+    <string name = "aviso">Su telefonia contratada podria realizar cargos por el envio de mensajes sms</string>
+    <string name = "recordatorioPositivo">Si</string>
+    <string name = "recordatorioNegativo">No</string>
+
+
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string-array name="list_preference_entries">
+        <item>Entry 1</item>
+        <item>Entry 2</item>
+        <item>Entry 3</item>
+    </string-array>
+
+    <string-array name="list_preference_entry_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="multi_select_list_preference_default_value" />
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+</resources>
