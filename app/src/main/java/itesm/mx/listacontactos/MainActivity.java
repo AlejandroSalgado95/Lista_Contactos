@@ -115,6 +115,10 @@ public class MainActivity extends AppCompatActivity implements ExpandableListVie
         Type listType = new TypeToken<ArrayList<Contacto>>(){}.getType();
         listaContactos = gson.fromJson(json, listType);
 
+        if (listaContactos == null){
+            listaContactos = new ArrayList<Contacto>();
+        }
+
 
         //Añade al arreglo de contactos los siguientes contactos default (haya habido o no haya habido un arreglo
         //de contactos guardado previamente en memoria)
