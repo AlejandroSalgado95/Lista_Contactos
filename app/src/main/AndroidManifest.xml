@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="itesm.mx.listacontactos">
+    package="Salgado.mx.listacontactos">
 
     <uses-permission android:name="android.permission.CALL_PHONE" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
@@ -24,7 +24,7 @@
     </compatible-screens>
 
     <application
-        android:name=".VariablesGlobales"
+        android:name="Salgado.mx.listacontactos.VariablesGlobales"
         android:allowBackup="true"
         android:icon="@mipmap/ic_logo_launcher"
         android:label="@string/app_name"
@@ -32,7 +32,7 @@
         android:roundIcon="@mipmap/ic_logo_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity"
+        <activity android:name="Salgado.mx.listacontactos.MainActivity"
                   android:hardwareAccelerated="false"
                   android:screenOrientation="portrait">
             <intent-filter>
@@ -40,64 +40,64 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".ContactDetails"
+        <activity android:name="Salgado.mx.listacontactos.ContactDetails"
             android:label="@string/title_activity_contact_details"
             android:screenOrientation="portrait"
-            android:parentActivityName=".MainActivity">
+            android:parentActivityName="Salgado.mx.listacontactos.MainActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="itesm.mx.listacontactos.MainActivity" />
+                android:value="Salgado.mx.listacontactos.MainActivity" />
         </activity>
         <activity
             android:screenOrientation="portrait"
-            android:name=".SettingsActivity"
+            android:name="Salgado.mx.listacontactos.SettingsActivity"
             android:label="@string/title_activity_settings"
-            android:parentActivityName=".MainActivity">
+            android:parentActivityName="Salgado.mx.listacontactos.MainActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="itesm.mx.listacontactos.MainActivity" />
+                android:value="Salgado.mx.listacontactos.MainActivity" />
         </activity>
-        <activity android:name=".PermisosActivity"
+        <activity android:name="Salgado.mx.listacontactos.PermisosActivity"
                   android:screenOrientation="portrait"/>
-        <activity android:name=".AgregarActivity"
+        <activity android:name="Salgado.mx.listacontactos.AgregarActivity"
             android:label="@string/title_activity_agregar"
             android:screenOrientation="portrait"
-            android:parentActivityName=".SettingsActivity">
+            android:parentActivityName="Salgado.mx.listacontactos.SettingsActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="itesm.mx.listacontactos.SettingsActivity" />
+                android:value="Salgado.mx.listacontactos.SettingsActivity" />
         </activity>
-        <activity android:name=".EliminarActivity"
+        <activity android:name="Salgado.mx.listacontactos.EliminarActivity"
             android:label="@string/title_activity_eliminar"
             android:screenOrientation="portrait"
-            android:parentActivityName=".SettingsActivity">
+            android:parentActivityName="Salgado.mx.listacontactos.SettingsActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="itesm.mx.listacontactos.SettingsActivity" />
+                android:value="Salgado.mx.listacontactos.SettingsActivity" />
         </activity>
-        <activity android:name=".EditarActivity"
+        <activity android:name="Salgado.mx.listacontactos.EditarActivity"
             android:label="@string/title_activity_editar"
             android:screenOrientation="portrait"
-            android:parentActivityName=".SettingsActivity">
+            android:parentActivityName="Salgado.mx.listacontactos.SettingsActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="itesm.mx.listacontactos.SettingsActivity" />
+                android:value="Salgado.mx.listacontactos.SettingsActivity" />
         </activity>
-        <activity android:name=".EditarContactoActivity"
+        <activity android:name="Salgado.mx.listacontactos.EditarContactoActivity"
             android:label="@string/title_activity_editarContacto"
             android:screenOrientation="portrait"
-            android:parentActivityName=".EditarActivity">
+            android:parentActivityName="Salgado.mx.listacontactos.EditarActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="itesm.mx.listacontactos.EditarActivity" />
+                android:value="Salgado.mx.listacontactos.EditarActivity" />
         </activity>
-        <activity android:name=".ChangePasswordActivity"
+        <activity android:name="Salgado.mx.listacontactos.ChangePasswordActivity"
             android:label="@string/title_activity_change_password"
             android:screenOrientation="portrait"
-            android:parentActivityName=".SettingsActivity">
+            android:parentActivityName="Salgado.mx.listacontactos.SettingsActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="itesm.mx.listacontactos.SettingsActivity" />
+                android:value="Salgado.mx.listacontactos.SettingsActivity" />
         </activity>
     </application>
 
