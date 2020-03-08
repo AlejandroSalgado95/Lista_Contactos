@@ -4,7 +4,7 @@ android {
     compileSdkVersion 28
     buildToolsVersion "25.0.2"
     defaultConfig {
-        applicationId "Salgado.mx.listacontactos"
+        applicationId "salgado.mx.listacontactos"
         minSdkVersion 16
         targetSdkVersion 28
         versionCode 1

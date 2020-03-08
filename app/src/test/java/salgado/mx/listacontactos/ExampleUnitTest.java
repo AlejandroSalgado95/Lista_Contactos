@@ -1,4 +1,4 @@
-package Salgado.mx.listacontactos;
+package salgado.mx.listacontactos;
 
 import org.junit.Test;
 

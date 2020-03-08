@@ -1,4 +1,4 @@
-package Salgado.mx.listacontactos;
+package salgado.mx.listacontactos;
 
 import android.app.AlertDialog;
 import android.content.DialogInterface;

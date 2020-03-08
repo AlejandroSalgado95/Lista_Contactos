@@ -1,4 +1,4 @@
-package Salgado.mx.listacontactos;
+package salgado.mx.listacontactos;
 
 import android.content.SharedPreferences;
 import android.support.v7.app.AppCompatActivity;
