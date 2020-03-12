@@ -104,7 +104,8 @@
             android:layout_width="150dp"
             android:layout_height="150dp"
             android:layout_gravity="center"
-            android:background="@mipmap/ic_photo" />
+            android:background="@mipmap/ic_photo"
+            android:visibility="gone"/>
 
     </LinearLayout>
 
