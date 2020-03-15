@@ -18,13 +18,13 @@ CT_PAM es una aplicacion creada con la intencion de brindar al adulto mayor una 
   * EL modo administrador permite configuar los contactos y esta protegido por contraseña
 4. Cuenta con mensajes predeterminados con situaciones de emergencia para que se puedan mandar rapidamente
 
-### Sobre el modo usuario
+### Manual de uso:
 
-Para acceder al modo usuario, solo basta con darle click a la llave de configuraciones. Para proteger los contactos dados, la contraseña pretdeterminada es "usuario", la cual puede ser cambiada
+Para acceder al modo usuario, solo basta con darle click a la llave de configuraciones. Para proteger los contactos dados, la contraseña predeterminada es "usuario", la cual puede ser cambiada
 
 ### Descarga
 
- Se puede **descargar** el App desde: aun no disponible en la playstore
-
+ Se puede **descargar** el App desde: https://play.google.com/store/apps/details?id=salgado.mx.listacontactos
+ 
 ## Version de Android
 El soporte SDK minimo de la aplicacion CT_PAM es API 16(Jelly Bean).
